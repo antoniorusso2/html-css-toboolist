@@ -1,35 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* regole generiche e reset rules */
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+ul li{
+  list-style: none;
+}
+
 html{
   font-family: 'Montserrat';
 }
 
-header{
-  margin-bottom: 50px;
+span{
+  display: inline-block;
+}
+
+h2{
+  display: inline-block;
 }
 
 /* sezione header */
+
+header{
+  padding: 10px 10px 10px 5px;
+}
+
 .title{
   display: inline-block;
 }
 
 .logo, .title{
   vertical-align: middle;
-  padding-top: 10px;
 }
 
-/* centramento container */
+/* centramento container + stile*/
+
 .container{
   max-width: 800px;
   margin: 0 auto;
   border-radius: 5px;
+  background-color: white;
 }
 
 /* stile nav */
@@ -40,8 +55,7 @@ header{
 }
 
 .container>nav{
-  padding: 15px 30px 10px;
-  border-bottom: 2px solid rgb(126, 125, 125);
+  padding: 15px 50px 10px;
 }
 
 .blue-button{
@@ -55,3 +69,37 @@ header{
   border: 1px solid;
   
 }
+
+/* main section */
+
+.main.container{
+  margin-top: 1px;
+  padding: 30px 50px;
+}
+
+.bg-main{
+  padding-top: 50px;
+  background-color: rgb(237, 243, 245);
+}
+
+/* to do list */
+.edi{
+  color: white;
+  background-color: rgb(15, 183, 230);
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.check{
+  font-weight: 800;
+  color: rgb(10, 250, 130);
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgb(10, 250, 130);
+  border-radius: 100%;
+  padding-left: 2px;
+  padding-bottom: 20px;
+}
+
+/* 1st point */
+
