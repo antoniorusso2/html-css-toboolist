@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* regole generiche e reset rules */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html{
+  font-family: 'Montserrat';
+}
+
+/* sezione header */
+.title{
+  display: inline-block;
+}
+
+.logo, .title{
+  vertical-align: middle;
+  padding-top: 10px;
 }
