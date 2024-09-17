@@ -8,8 +8,9 @@
   padding: 0;
 }
 
-ul li{
+ul, li{
   list-style: none;
+  margin: 10px 0 20px;
 }
 
 html{
@@ -83,22 +84,64 @@ header{
 }
 
 /* to do list */
-.edi{
+
+.tasks{
+  margin-bottom: 30px;
+}
+
+/* categorie tasks di vari colori */
+.edi, .q1, .recruit, .mobi, .web, .sales{
   color: white;
-  background-color: rgb(15, 183, 230);
   border-radius: 20px;
   padding: 5px 10px;
 }
 
-.check{
+.edi{
+  background-color: rgb(15, 183, 230);
+}
+
+.q1{
+  background-color: rgb(166, 100, 253);
+}
+
+.recruit{
+  background-color: rgb(2, 177, 153);
+}
+
+.mobi{
+  background-color: rgb(233, 174, 12);
+}
+
+.web{
+  background-color: rgb(201, 4, 158);
+}
+
+.sales{
+  background-color: rgb(162, 207, 0);
+}
+
+/* simboli check e cross*/
+.check, .cross{
   font-weight: 800;
-  color: rgb(10, 250, 130);
   height: 20px;
   width: 20px;
+  margin-right: 10px;
+}
+
+.check{
+  color: rgb(10, 250, 130);
   border: 1px solid rgb(10, 250, 130);
-  border-radius: 100%;
+  border-radius: 50%;
   padding-left: 2px;
   padding-bottom: 20px;
+}
+
+.cross{
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding-left: 4.5px;
+  padding-bottom: 19px;
 }
 
 /* 1st point */
